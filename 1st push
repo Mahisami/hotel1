@@ -6,7 +6,12 @@ string name,address,phone;
 int booking_id,room,status;
 void accept();
 void display();
-
+int main()
+{
+    accept();
+    display();
+    return 0;
+}
 int main()
 {
     accept();
